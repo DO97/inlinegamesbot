@@ -36,7 +36,7 @@ class Tictacfour extends Tictactoe
      *
      * @var string
      */
-    protected static $description = 'Tic-tac-four is a game for two players, X and O, who take turns marking the spaces in a 7×6 grid.';
+    protected static $description = 'Tic-tac-four is a game for two players, X and O, who take turns marking the spaces in a 6×5 grid.';
 
     /**
      * Game thumbnail image
@@ -58,12 +58,11 @@ class Tictacfour extends Tictactoe
      * @var array
      */
     protected $board = [
-        ['', '', '', '', '', '', ''],
-        ['', '', '', '', '', '', ''],
-        ['', '', '', '', '', '', ''],
-        ['', '', '', '', '', '', ''],
-        ['', '', '', '', '', '', ''],
-        ['', '', '', '', '', '', ''],
+        ['', '', '', '', '', ''],
+        ['', '', '', '', '', ''],
+        ['', '', '', '', '', ''],
+        ['', '', '', '', '', ''],
+        ['', '', '', '', '', ''],
     ];
 
     /**
